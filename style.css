@@ -1,0 +1,67 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .gradient-background2 {
+    background: linear-gradient(300deg, #6d6875, #e5989b, #ffcdb2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .header {
+    background: linear-gradient(300deg, #264653, #e9c46a, #2a9d8f);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .header{
+    background-color: #4ECDC4;
+    color: white;
+  }
+  .profile{
+    height: 400px;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  .profile1{
+    border-radius: 50%;
+    height: 100px;
+  }
+.title{
+    color: #e9c46a;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mujahid | Payment Form</title>
+    <link rel="stylesheet" href="payment_form.css">
+</head>
+
+<body>
+
+    <form action="">
+        <div class="box">
+            <header>
+                <h1>Payment Form </h1>
+            </header>
+            <hr>
+            <h2>User information</h2>
+            <p class="name">
+                Name: <input type="text" name="name" id="name" placeholder="Enter your name">
+            </p>
+            <p>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="Gender" id="Gender1" >
+                <label for="Gender1">Male</label>
+                <input type="radio" name="Gender" id="Gender2">
+                <label for="Gender2">Female</label>
+            </fieldset>
+            </p>
+            <p>
+                Email: <input type="email" name="email" id="email" placeholder="Mujahid@gmail.com">
+            </p>
+            <p class="address">
+                Address: <br><textarea placeholder="Enter your address" name="address" id="address" cols="100"
+                    rows="10"></textarea>
+            </p>
+            <p class="pincode">
+                Pincode: <input placeholder="506132" type="number" name="Pincode" id="pincode">
+            </p>
+            <hr>
+            <h2>Payment information</h2>
+            <p class="cardtype">
+                Card type:
+                <select name="Card_type" id="Card_type">
+                    <option value="">--select card type--</option>
+                    <option value="visa">Visa</option>
+                    <option value="master card">Master card</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="platinum">Platinum</option>
+                </select>
+            </p>
+            <p class="cardnumber">
+                Card Number: <input placeholder="1111-2222-4444" type="number" name="card_number" id="card_number">
+
+            </p>
+            <p class="expiredate">
+                Expairy date: <input type="date" name="expired_date" id="expired_date">
+            </p>
+            <p class="cvv">
+                CVV: <input placeholder="123" type="password" name="cvv" id="cvv">
+            </p>
+            <p class="submit">
+                <input type="submit" value="Pay now">
+            </p>
+        </div>
+
+
+    </form>
+</body>
+
+</html>
